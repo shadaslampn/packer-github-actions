@@ -25,3 +25,4 @@ build {
     script = "./userdata.sh"
     execute_command = "sudo {{.Path}}" 
   }
+}
