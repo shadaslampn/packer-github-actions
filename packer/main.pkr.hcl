@@ -1,6 +1,5 @@
 source "amazon-ebs" "image" {
 
-  region = var.region
   ami_name = local.image-name
   source_ami = var.ami_id
   instance_type = "t2.micro"
